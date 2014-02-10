@@ -1,0 +1,9 @@
+{{> search_box}}
+ 
+{{#each result.results}}
+	<a class="search_result" style="background-image: url(http://image.tmdb.org/t/p/w500/{{backdrop_path}})" href="/movie/{{id}}">
+		<span>
+		{{title}}
+		</span>
+	</a>
+{{/each}}

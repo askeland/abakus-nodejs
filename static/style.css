@@ -1,0 +1,56 @@
+/* RESET EVERYTHING */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, textarea, select { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; }
+
+body {
+	background: #ececec;
+	font-family: arial;
+}
+
+#container {
+	width: 1060px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+
+#search {
+	width: 400px;
+	margin: 120px 50px 0 50px;
+}
+
+#search input {
+	height: 40px;
+}
+
+#search input[type='text']{
+	font-size: 20px;
+	width: 290px;
+	padding: 10px;
+}
+
+#search input[type='submit']{
+	font-size: 16px;
+	width: 100px; 
+}
+
+.search_result {
+	display: block;
+	width: 500px;
+	height: 280px;
+	float: left;
+	border: 2px solid #dfdfdf;
+	position: relative;
+	background: #afafaf;
+	margin: 0 20px 20px 0;
+	border-radius: 10px;
+}
+
+.search_result span {
+	position: absolute;
+	bottom: 0;
+	padding: 15px;
+	width: 470px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	border-radius: 0 0 10px 10px;
+}
